@@ -28,5 +28,5 @@ int _printf(const char *format, ...)
 	printed_chars = selector(format, print_list, arg_list);
 	va_end(arg_list);
 
-	return (prined_chars);
+	return (printed_chars);
 }
