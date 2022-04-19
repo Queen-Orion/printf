@@ -9,7 +9,7 @@
  * Description: This function can take a variable number and type of arguments
  * that should be printed to standard output.
  *
- * Return: int
+ * Return: Count of the characters printed
  */
 int _printf(const char *format, ...)
 {
