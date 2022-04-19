@@ -1,8 +1,8 @@
 #include "main.h"
+
 /**
- *_printf - prints a string with specifiers.
- *@format: the main string passed to the function.
- *
+ * _printf - prints a string with specifiers.
+ * @format: the main string passed to the function.
  *Return: number of total characters printed to stdout
  */
 int _printf(const char *format, ...)
