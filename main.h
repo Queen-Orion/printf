@@ -1,28 +1,22 @@
-#ifndef _PRINT_F
-#define _PRINT_F
+#ifndef MAIN_H
+#define MAIN_H
 
-#include <unistd.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <stdarg.h>
-/**
- * struct conversion - This struct content.
- *@spec: specifier char
- *@f: pointer to function in print list
- */
-struct conversion
-{
-	char *spec;
-	int (*f)(va_list);
-};
-typedef struct conversion conver_struct;
 
+int _putchar(char c);
 int _printf(const char *format, ...);
-int selector(const char *format, conver_struct print_list[], va_list arg_list);
-int put_char(char);
-int prints_character(va_list);
-int prints_string(va_list);
-int prints_percent(va_list);
-int prints_numbers(va_list);
-int prints_rot13(va_list);
+int print_num(long int n);
+int print_string(char *str);
+int print_binary(unsigned int num);
+int print_unknown_spec(char c);
+int print_odh(char c, unsigned int num);
+int dec_to_oct(unsigned int num);
+int dec_to_hex(char c, unsigned int num);
+int print_S(char *);
+int print_reverse(char *s);
+int print_rot13(char *c);
+int print_pointer(void *p);
 
-#endif
+#endif /* MAIN_H */
