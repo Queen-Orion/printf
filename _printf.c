@@ -3,7 +3,8 @@
 /**
  * _printf - prints a string with specifiers.
  * @format: the main string passed to the function.
- *Return: number of total characters printed to stdout
+ *
+ * Return: number of total characters printed to stdout
  */
 int _printf(const char *format, ...)
 {
