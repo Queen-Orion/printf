@@ -9,7 +9,7 @@
 
 /**
  * struct conv - a struct of a function pointer and a character
- * @ch: a conversion specifier character
+ * @ch: a conversion specifier character for output
  * @f: a function pointer
  */
 

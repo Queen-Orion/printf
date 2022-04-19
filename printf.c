@@ -2,7 +2,7 @@
 
 /**
  * _putchar - a function to print a char
- * @c: a charcter to prinr
+ * @c: a charcter to print
  *
  * Return: void function
  */
