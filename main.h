@@ -18,6 +18,7 @@ int print_S(char *);
 int print_reverse(char *s);
 int print_rot13(char *c);
 int print_pointer(void *p);
+int print_unsigned(va_list arg);
 
 #endif /* MAIN_H */
 
