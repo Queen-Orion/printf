@@ -18,3 +18,4 @@ int print_string(char *str)
 	}
 	return (chars_printed);
 }
+

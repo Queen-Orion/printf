@@ -21,3 +21,4 @@ int print_unknown_spec(char c)
 	}
 	return (chars_printed);
 }
+
