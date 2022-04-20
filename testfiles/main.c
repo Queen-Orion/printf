@@ -9,5 +9,5 @@ int main(void)
 	_printf("I can tell that %i is a num, %c is a char and %s\n", i, c, str);
 	_printf("It's also incredible that we can print \% using \\\n");
 	if(_printf != 0)
-		retur (1);
+		return (1);
 }
