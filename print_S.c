@@ -29,3 +29,4 @@ int print_S(char *str)
 	}
 	return (chars_printed);
 }
+

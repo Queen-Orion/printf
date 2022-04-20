@@ -63,3 +63,4 @@ int print_odh(char c, unsigned int num)
 		chars_printed += dec_to_hex(c, num);
 	return (chars_printed);
 }
+

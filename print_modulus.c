@@ -12,3 +12,4 @@ int print_percent(__attribute__((unused))va_list list_args)
 	_putchar('%');
 	return (1);
 }
+

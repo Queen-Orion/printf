@@ -35,3 +35,4 @@ int print_binary(unsigned int num)
 	}
 	return (chars_printed);
 }
+
