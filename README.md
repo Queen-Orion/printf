@@ -74,4 +74,5 @@ man_3_printf	contains manual of this functions
 
 # AUTHORS
 Bridget Nwazue
+
 Marvelous Ezugo
